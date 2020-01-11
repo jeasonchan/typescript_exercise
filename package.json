@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/jeasonchan/typescript_exercise/issues"
   },
-  "homepage": "https://github.com/jeasonchan/typescript_exercise#readme"
+  "homepage": "https://github.com/jeasonchan/typescript_exercise#readme",
+  "dependencies": {}
 }
