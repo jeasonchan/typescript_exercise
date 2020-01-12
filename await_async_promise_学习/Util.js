@@ -8,7 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.a = 111;
+exports.hahahhaahha = 111;
+exports.url = "https://cn.bing.com/search?q=%E5%93%88%E5%93%88&go=%E6%8F%90%E4%BA%A4&qs=ds&form=QBLHCN";
 function timeout(ms) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -29,4 +30,16 @@ function asyncPrint(ms) {
     });
 }
 exports.asyncPrint = asyncPrint;
-// asyncPrint(1000);
+//async 修饰的函数的返回值，如果自己显式声明了，则必须是Promise类型，
+//如果不显示声明，则自动将return的值包装为Promise1的泛型
+function jie_cheng(endNumber) {
+    return __awaiter(this, void 0, void 0, function* () {
+        let result = 1;
+        let flag = 1;
+        while (flag <= endNumber) {
+            result = result * flag++; //先使用，再自增
+        }
+        return result;
+    });
+}
+exports.jie_cheng = jie_cheng;
